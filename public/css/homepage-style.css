@@ -1,0 +1,64 @@
+header{
+  background: grey;
+  color: blanchedalmond;
+  text-align: justify;
+  height: 5em;
+  padding: 2em 10%;
+  font-family: "Gill Sans", sans-serif;
+}
+header h1,
+header nav {
+    display: inline-block;
+}
+
+header::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+header h1 {
+  height: 100%;
+}
+
+header h1::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.image-cropper {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profil_pic{
+  display: flex;
+  justify-content: center;
+}
+
+.personnal_information{
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.body_of_website{
+  background: palegoldenrod;
+  font-family: "Gill Sans", sans-serif;
+}
+
+
+

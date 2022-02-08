@@ -1,0 +1,130 @@
+header{
+  background: grey;
+  color: blanchedalmond;
+  text-align: justify;
+  height: 8em;
+  padding: 2em 10%;
+}
+header h1,
+header nav {
+    display: inline-block;
+}
+
+header::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+header h1 {
+  height: 100%;
+}
+
+header h1::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.head{
+  background: linear-gradient(rgb(109, 106, 102), whitesmoke);
+  font-family: "Gill Sans", sans-serif;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+};
+.informations{
+  border-left: solid;
+  border-left-width: 10px;
+}
+
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.description{
+  background : whitesmoke;
+  margin: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Gill Sans", sans-serif;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rest_of_resume{
+  background: linear-gradient(whitesmoke,rgb(109, 106, 102));
+  margin: 0px;
+  font-family: "Gill Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.category_title {
+  padding-left: 20px;
+  padding-top: 10px;
+  margin: 0px;
+  border-bottom-style: dashed;
+}
+
+.date{
+  font-style: italic;
+}
+
+.football {
+  list-style-type: "\26BD ";
+}
+
+.emoji_skills {
+  list-style: none;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.emoji_skills li{
+  padding-left: 1rem;
+  text-indent: -0.75rem;
+}
+.emoji_skills li::before{
+  content: "\1F45F "
+}
+.emoji_skills li:nth-child(2)::before {
+  content: '\1F3C3 ';
+}
+.emoji_skills li:nth-child(3)::before {
+  content: '\26A1 ';
+}
+.emoji_skills li:nth-child(4)::before {
+  content: '\1F94B ';
+}
+
+.fa {
+  padding-top: 0px;
+  padding-left:0px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: grey;
+}
