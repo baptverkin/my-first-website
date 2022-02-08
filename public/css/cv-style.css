@@ -34,11 +34,31 @@ a, a:hover, a:focus, a:active {
   height: 200px;
   display: flex;
   justify-content: center;
-};
-.informations{
-  border-left: solid;
-  border-left-width: 10px;
 }
+
+.informations{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus_dinfo{
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+}
+.name {
+  margin : 0px;
+  padding-bottom: 10px;
+}
+.profession{
+  margin : 0px;
+  padding-bottom: 10px;
+}
+
 
 .image-cropper {
   width: 100px;
@@ -115,9 +135,18 @@ a, a:hover, a:focus, a:active {
 .fa {
   padding-top: 0px;
   padding-left:0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
   width: 30px;
-  text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  color: grey;
+  color: rgb(56, 55, 55);
 }
+
+/* .fa:hover, .fa:focus, .fa:active {
+  text-decoration: none;
+  color: inherit;
+} */
+
+
+

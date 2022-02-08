@@ -43,7 +43,8 @@ a, a:hover, a:focus, a:active {
 
 .personnal_information{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   font-family: "Gill Sans", sans-serif;
 }
 
@@ -52,5 +53,31 @@ a, a:hover, a:focus, a:active {
   font-family: "Gill Sans", sans-serif;
 }
 
+.subcategorie{
+  padding-left: 20px;
+}
 
+.emoji_achievments {
+  list-style: none;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin: 0;
+}
 
+.emoji_achievments li{
+  padding-left: 1rem;
+  text-indent: -0.75rem;
+}
+.emoji_achievments li::before{
+  content: "\1F45F "
+}
+.emoji_achievments li:nth-child(2)::before {
+  content: '\1F3C3 ';
+}
+.emoji_achievments li:nth-child(3)::before {
+  content: '\26A1 ';
+}
+.emoji_achievments li:nth-child(4)::before {
+  content: '\1F94B ';
+}
