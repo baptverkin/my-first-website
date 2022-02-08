@@ -1,0 +1,51 @@
+.image-cropper {
+  width: 200px;
+  height: 150px;
+  padding: 20px;
+  overflow: hidden;
+  border: 100%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+
+
+  background: grey;
+  color: palegoldenrod;
+  text-align: justify;
+  height: 5em;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.header_right{
+  display: flex;
+  align-items: center;
+}
+
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.first_product{
+  display: flex;
+  justify-content: flex start;
+}
+.second_product{
+  display: flex;
+  justify-content: flex start;
+}
+
+/* .description_first_product{
+  display: flex;
+  align-items: center;
+} */
